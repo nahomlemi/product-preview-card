@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Montserrat:ital,wght@0,600;1,500&display=swap');
+@media all and {max-width:1440px}
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    background-color:var(--Cream);
+}
+
+.main {
+    margin:auto;
+    margin-top:100px;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Montserrat;
+    overflow:hidden;
+
+}
+.text{
+    padding:20px;
+}
+.image{
+    width:50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h1{
+    display:flex;
+    align-items:flex-start;
+    font-weight:700;
+    font-family: Fraunces;
+}
+p{
+    padding:20px;
+    line-height:25px;
+    font-size:14px;
+    color:var(--Dark-grayish-blue)
+}
+.cart{
+    color:white;
+    background-color: var(--Dark-cyan);
+    padding:10px 90px;
+    margin-left:10px;
+    justify-content: center;
+    font-size:14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart :hover{
+    opacity: 50%;
+}
+#perfume{
+    letter-spacing:4px;
+    color:var(--Dark-grayish-blue);
+    font-size:16px;
+    margin-top:10px;
+}
+#price{
+    color:var(--Dark-cyan);
+    font-family:Fraunces;
+    margin-left:10px;
+    font-size:30px;
+}
